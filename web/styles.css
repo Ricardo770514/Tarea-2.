@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #00050c;
+}
+
+header {
+    background-color: hsla(242, 96%, 31%, 0.829);
+    color: white;
+    text-align: center;
+    padding: 55px;
+}
+
+main {
+    padding: 55px;
+}
+
+section {
+    margin-bottom: 55px;
+}
+
+h1, h2 {
+    margin-bottom: 55px;
+    text-align: center;
+
+}
+
+.galeria {
+    display: flex;
+    gap: 135px;
+}
+
+
+    border: 102px solid #ccc;
+    border-radius: 55px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+form label {
+    margin-top: 55px;
+    text-align: center;
+
+}
+
+form input, form textarea, form button {
+    margin-top: 55px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+    text-align: center;
+}
+
+form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 55px;
+    text-align: center;
+
+}
+
+form button:hover {
+    background-color: #45a049;
+    text-align: center;
+
+}
+
+footer {
+    text-align: center;
+    padding: 55px;
+    background-color: #f1f1f1;
+    margin-top: 55px;
+    text-align: center;
+
+}

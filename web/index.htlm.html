@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 class="text1">Mi primera pagina web</h1>
+        <p class="">juntos aprenderemos.</p>
+    </header>
+    <main>
+        <section id="introduccion">
+            <h2>Introducción</h2>
+            <p>El objetivo principal de esta plataforma es proporcionar un espacio educativo que facilite la comprensión y el uso de herramientas básicas para el desarrollo de páginas web. Está diseñada como un recurso práctico y accesible para fortalecer el aprendizaje en este ámbito, promoviendo tanto el conocimiento teórico como el desarrollo de habilidades técnicas. A través de esta página, buscamos que los usuarios adquieran competencias fundamentales en diseño y programación web, fomentando su capacidad para crear proyectos propios de manera autónoma y eficiente. Además, ofrecemos un enfoque estructurado que combina explicaciones claras, ejemplos prácticos y recursos adicionales que apoyan el aprendizaje continuo. De esta manera, esta página no solo tiene como propósito instruir, sino también inspirar a los usuarios a explorar su creatividad y aplicarla en el desarrollo de soluciones digitales innovadoras.</p>
+        </section>
+        <section id="Web">
+            <h2>Galeria</h2>
+            <style>
+
+                img{
+
+                    width: 200px;
+                    height: 200px;
+                }
+            </style>
+            <div class="galeria">
+                <img src="Imagen libro/camino al exito.jpeg" alt="Imagen 1">
+                <img src="Imagen libro/no te rindas.jpeg" alt="Imagen 2">
+                <img src="Imagen libro/uk.jpg" alt="Imagen 3">
+                <img src="Imagen libro/4.webp" alt="imagen 4"
+                
+            </div>
+        </section>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Si tienes alguna duda, no dudes en contactarme:</p>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Mi Página Web. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
